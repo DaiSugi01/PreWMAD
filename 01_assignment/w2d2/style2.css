@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  background-color: green;
+  line-height: 10vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.left-box {
+  background-color: red;
+  width: 48%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.left-sub-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  background-color: yellow;
+  width: 15vw;
+  height: 15vh;
+  text-align: center;
+  line-height: 15vh;
+}
+
+.right-box {
+  background-color: blue;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.right-items {
+  background-color: yellow;
+  width: 100%;
+  height: 15vh;
+  line-height: 15vh;
+}
